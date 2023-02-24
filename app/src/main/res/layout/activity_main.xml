@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <ImageView
@@ -13,11 +13,13 @@
         android:src="@drawable/porsche" />
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="AppCar"/>
-
-
+        android:layout_gravity="center"
+        android:text="AppCar"
+        android:textColor="#ED3649EF"
+        android:textSize="50sp"
+        android:textStyle="bold|italic" />
 
 
 </LinearLayout>
